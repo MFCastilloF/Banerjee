@@ -1,5 +1,5 @@
 * Load the household data
-use "C:\\Users\\maria\\Desktop\\RA Microeconometría\\RCT\\Replicar\\Banerjee\\Data\\base_prueba.dta", clear
+use "C:\\Users\\maria\\Desktop\\Proyecto\\Data.dta", clear
 
 * Simple Regression for ind_fin_el1
 reg ind_fin_el1 treatment if el1==1
